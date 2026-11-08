@@ -39,3 +39,4 @@ rayn = """
 """
 
 print(rayn)
+print("halo semua")
