@@ -58,11 +58,21 @@ elif MenuInput == 3:
 
 elif MenuInput == 4:
 # Kode Rayndra Sulaiman Fattaahillah
-    print()
+        
+    rayn = ("""
+    ||||||   ||||||   ||  ||   ||   ||
+    ||  ||   ||  ||   ||  ||   |||  ||
+    ||||||   ||||||    ||||    || ||||
+    || ||    ||  ||     ||     ||  |||
+    ||  ||   ||  ||     ||     ||   ||
+    """)
+
+    print(rayn)
+    print("halo semua")
 
 elif MenuInput == 5:
-# Kode Hasby
-    print()
+    # Kode Hasby
+        print()
 
 else:
     print("Tidak ada opsi itu")
