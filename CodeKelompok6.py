@@ -1,4 +1,4 @@
-﻿#File untuk di kolaborasi
+#File untuk di kolaborasi
 
 #Kode Iqbal Fadhil Tresnadarma
 
