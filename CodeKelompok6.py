@@ -6,7 +6,7 @@ KODE KELOMPOK 6
 2. Kode buatan Muhammad Dimas Nugraha
 3. Kode buatan Raditya Farras Sudrajat
 4. Kode buatan Rayndra Sulaiman Fattaahillah
-5. Kode buatan Hasby
+5. Kode buatan Hasbi khoirul fikri saputra
 
 """)
 MenuInput = (str(input("Masukkan kode yang ingin anda jalankan : ")))
