@@ -6,7 +6,7 @@ KODE KELOMPOK 6
 2. Kode buatan Muhammad Dimas Nugraha
 3. Kode buatan Raditya Farras Sudrajat
 4. Kode buatan Rayndra Sulaiman Fattaahillah
-5. Kode buatan Hasby
+5. Kode buatan Hasbi khoirul fikri saputra
 
 """)
 MenuInput = (str(input("Masukkan kode yang ingin anda jalankan : ")))
@@ -71,8 +71,32 @@ elif MenuInput == 4:
     print("halo semua")
 
 elif MenuInput == 5:
-    # Kode Hasby
-        print()
+    # Kode Hasbi Khoirul Fikri Saputra
+    def Transaksi():
+    print("=== PROGRAM TRANSAKSI ===")
 
-else:
-    print("Tidak ada opsi itu")
+    Nama = input("Masukkan nama pembeli : ")
+    Barang = input("Masukkan nama barang : ")
+    Harga = int(input("Masukkan harga barang : "))
+    Jumlah = int(input("Masukkan jumlah barang : "))
+
+    Total = Harga * Jumlah
+
+    print("\n=== STRUK PEMBELIAN ===")
+    print("Nama Pembeli :", Nama)
+    print("Nama Barang  :", Barang)
+    print("Harga Barang :", Harga)
+    print("Jumlah       :", Jumlah)
+    print("Total Bayar  :", Total)
+
+    Bayar = int(input("Masukkan uang pembayaran : "))
+
+    if Bayar >= Total:
+        Kembalian = Bayar - Total
+        print("Kembalian :", Kembalian)
+        print("Transaksi Berhasil")
+    else:
+        print("Uang Anda Tidak Cukup")
+
+Transaksi()
+       
