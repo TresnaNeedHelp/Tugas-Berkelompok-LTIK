@@ -62,7 +62,30 @@ elif MenuInput == 4:
 
 elif MenuInput == 5:
 # Kode Hasby
-    print()
+    def Transaksi():
+    print("=== PROGRAM TRANSAKSI ===")
 
-else:
-    print("Tidak ada opsi itu")
+    Nama = input("Masukkan nama pembeli : ")
+    Barang = input("Masukkan nama barang : ")
+    Harga = int(input("Masukkan harga barang : "))
+    Jumlah = int(input("Masukkan jumlah barang : "))
+
+    Total = Harga * Jumlah
+
+    print("\n=== STRUK PEMBELIAN ===")
+    print("Nama Pembeli :", Nama)
+    print("Nama Barang  :", Barang)
+    print("Harga Barang :", Harga)
+    print("Jumlah       :", Jumlah)
+    print("Total Bayar  :", Total)
+
+    Bayar = int(input("Masukkan uang pembayaran : "))
+
+    if Bayar >= Total:
+        Kembalian = Bayar - Total
+        print("Kembalian :", Kembalian)
+        print("Transaksi Berhasil")
+    else:
+        print("Uang Anda Tidak Cukup")
+
+Transaksi()
